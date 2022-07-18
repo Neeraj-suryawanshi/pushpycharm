@@ -9,6 +9,20 @@ d={
     "age":30
 
 }
+d={
+    "name" :"neeraj",
+    "email" :"suryawanshi.neeraj@gmail.com",
+    "surname" :"suryawanshi",
+    "age":30
+
+}
+d={
+    "name" :"neeraj",
+    "email" :"suryawanshi.neeraj@gmail.com",
+    "surname" :"suryawanshi",
+    "age":30
+
+}
 db1=client['mongodbproject']
 coll=db1['test']
 coll.insert_one(d)
